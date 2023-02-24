@@ -1,0 +1,195 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+background-color: #2b2b2b;
+color: whitesmoke;
+}
+
+header{
+background-color: #131313;
+}
+
+ /* ESTILOS DEL M E N U  */
+ .menu{
+text-align: center;
+ }
+
+.link{
+text-align: right;
+}
+
+.link .links{
+text-decoration: none;
+font-family: fantasy;
+font-size: 25px;
+color: #8893db;
+}
+.link .links:hover{
+color: crimson;
+}
+
+.link li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+.icon a{
+margin-right: 100px;
+font-size: 30px;
+font-weight: bold;
+color: crimson;
+}
+
+
+#inicio h1{
+margin: 0px auto;
+padding-top: 100px;
+width: 740px;
+font-family:cursive;
+text-align: center;
+}
+#inicio h2{
+margin: 0px auto;
+width: 740px;
+font-family:cursive;
+text-align: center;
+}
+
+#inicio span{
+color: rgb(167, 167, 224);
+font-weight: bold;
+font-size: 30px;
+}
+
+
+/* ESTILOS DEL APARTADO S O B R E M I  */
+#sobremi{
+margin-top: 100px;
+}
+#sobremi h1{
+text-align: center;
+margin: 75px;
+}
+
+
+.contenido{
+  font-family: cursive;
+  width: 740px;
+  margin: 0 auto;
+  padding: auto;
+}
+
+#yo{
+float: left;
+margin-right: 30px;
+width: 200px;
+}
+
+#cv{
+margin: 35px 750px;
+padding-top: 12px;
+text-decoration: unset;
+font-size: 20px;
+text-align: center;
+width: 150px;
+height: 30px;
+background-color: #8893db;
+border-radius: 20px;
+text-align: center;
+}
+
+#cv a{
+text-decoration: none;
+color: whitesmoke;
+
+}#cv:hover{
+background-color: brown;
+}
+
+
+
+/* ESTILOS DEL APARTADO H A B I L I D A D E S */
+h1{
+text-align: center;
+padding-top: 300px;
+}
+.habilidades{
+background-color: rgb(10, 12, 8);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.item{
+margin: 10px;
+width: 300px;
+height: 360px;
+background-color: #8893db;
+}
+
+/* ESTILOS DEL APARTADO DE T R A B A J O */
+#trabajos{
+margin-top: 100px;
+text-align: center;
+font-size: 20px;
+font-family: cursive;
+display:inline-box;
+}
+
+#trabajos h1{
+font-size: 30px;
+margin: 30px;
+}
+
+.proyectos{
+display: flex;
+overflow-x: scroll;
+padding: 24px;
+width: 300px;
+height: 360px;
+scroll-snap-type: x mandatory;
+scroll-padding: 24px;
+border-radius: 8px;
+gap: 12px;
+margin: 2rem auto;
+}
+.proyectos .items{
+flex: 0 0 100%;
+padding: 24px;
+border-radius: 8px;
+scroll-snap-align: start;
+}
+
+/*ESTILOS DEL APARTADO F O O T E R*/
+#contacto{
+text-align: center;
+margin-top:100px ;
+background-color: #1b1b1b;
+}
+
+#title{
+font-size:30px ;
+font-family: cursive;
+margin: 30px;
+}
+
+ul li{
+font-size: 20px;
+margin:10px;
+font-family: 'Courier New', Courier, monospace;
+}
+ul li a{
+font-size: 20px;
+margin:10px;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+}
+
