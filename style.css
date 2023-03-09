@@ -3,7 +3,6 @@ margin: 0;
 padding: 0;
 border: 0;
 }
-
 html{
 scroll-behavior: smooth;
 }
@@ -18,59 +17,60 @@ background-color: #131313;
 }
 
  /* ESTILOS DEL M E N U  */
- .menu{
-text-align: center;
- }
 
-.link{
-text-align: right;
+.menu{
+text-align: center;
+margin: 3px;
 }
 
 .link .links{
 text-decoration: none;
 font-family: fantasy;
-font-size: 25px;
+font-size: 18px;
 color: #8893db;
 }
 .link .links:hover{
 color: crimson;
 }
-
 .link li{
-  display: inline-block;
-  font-size: 20px;
-  padding: 10px;
+  display: inline-flex;
 }
+
 .icon a{
-margin-right: 100px;
+margin-right: 400px;
 font-size: 30px;
 font-weight: bold;
 color: crimson;
+
 }
 
 
-#inicio h1{
-margin: 0px auto;
-padding-top: 100px;
-width: 740px;
-font-family:cursive;
-text-align: center;
-}
-#inicio h2{
-margin: 0px auto;
-width: 740px;
-font-family:cursive;
-text-align: center;
-}
 
-#inicio span{
-color: rgb(167, 167, 224);
-font-weight: bold;
-font-size: 30px;
-}
 
 
 /* ESTILOS DEL APARTADO S O B R E M I  */
+
+
+#inicio .h1{
+  margin: 0px auto;
+  padding-top: 100px;
+  width: 740px;
+  font-family:cursive;
+  text-align: center;
+  }
+  #inicio h2{
+  margin: 0px auto;
+  width: 740px;
+  font-family:cursive;
+  text-align: center;
+  }
+  
+  #inicio span{
+  color: rgb(167, 167, 224);
+  font-weight: bold;
+  font-size: 30px;
+  }
+
 #sobremi{
 margin-top: 100px;
 }
